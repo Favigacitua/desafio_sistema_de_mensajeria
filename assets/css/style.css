@@ -1,0 +1,128 @@
+
+main {
+    display: flex;
+    min-height: 100vh;
+}
+
+.datos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    flex-basis: 25%;
+    flex-grow: 1;
+    flex-shrink: 1;
+ 
+}
+
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-left: 3rem;
+    margin-left: 8rem;
+}
+
+
+.chat {    
+    display: flex;
+    align-items: start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: solid 1px grey;
+    flex-grow: 1;
+    flex-shrink: 1;   
+}
+
+
+
+
+.new-chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: solid 1px black
+    
+}
+
+.button {
+    display: flex;
+    background-color: #a491d2;
+    color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 3rem;
+   
+}
+
+.button:hover {
+    background-color: #cdc3e6;
+    color: white;
+}
+
+.thumbnail img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.thumbnail-2 img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+.nertworking {
+    background-color: #e8ebe4;
+    flex-direction: column;
+    width: 100%;  
+    flex-basis: 100%;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.nertwork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.manos {
+
+    width: 25rem;
+  
+}
+
+.nert-titulo {
+    font-size: 60px;
+    text-align: center;
+}
+.nert-texto{
+    font-size: 16px;
+    text-align: center;
+}
+
